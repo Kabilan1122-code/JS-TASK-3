@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="head">
+        <h1>Ticket Booking System</h1>
+    </div>
+    <div class="movielist">
+        <h4>Available Movies</h4>
+        <div class="movie">
+            <img src="MV5BNTU1MzgyMDMtMzBlZS00YzczLThmYWEtMjU3YmFlOWEyMjE1XkEyXkFqcGc@._V1_.jpg">
+            <p><b>jsdfhgb</b></p>
+            <p id="rate">150</p>
+        </div>
+        <div class="movie">
+            <img src="MV5BMTc0NTUwMTU5OV5BMl5BanBnXkFtZTcwNjAwNzQzMw@@._V1_FMjpg_UX1000_.jpg">
+            <p><b>jsdfghghhgb</b></p>
+            <p id="rate">180</p>
+        </div>
+        <div class="movie">
+            <img src="images.jpeg">
+            <p><b>jhbafsjghbad</b></p>
+            <p id="rate">130</p>
+        </div>
+    </div>
+    <div class="ticketbook">
+        <h4>Book Your Tickets</h4>
+        <label>Select Movie</label><br>
+        <select>
+                <option>jsdfhgb</option>
+                <option>jsdfghghhgb</option>
+                <option>jhbafsjghbad</option>
+            </select>
+        <label>Show time</label><br>
+        <select>
+            <option>9:30 am</option>
+            <option>12:30 pm</option>
+            <option>4:00 pm</option>
+            <option>9:30 pm</option>
+        </select>
+        <label>Email</label><br>
+        <input type="email" placeholder="">
+        <label>Number of Ticket</label><br>
+        <input type="tel" placeholder=""><br><br>
+        <button id="bookbtn" style="background-color: tomato; color: white;">Book Tickets</button>
+        <button id="resetbtn" style="background-color: rgba(146, 145, 145, 0.549); color: white;">Reset</button><br><br>
+        <p>Total Price <span>0</span></p>
+    </div>
+    <div class="yourbook">
+        <h4>Your Bookings (<span>0</span>)</h4>
+    </div>
+</body>
+</html>
